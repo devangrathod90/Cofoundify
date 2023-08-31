@@ -1,0 +1,54 @@
+/* Reset some default styles */
+ 
+  
+  .profile_section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  /* p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: fangsong;
+    color: #555555;
+    font-weight: 900;
+    margin-bottom: 2em;
+  } */
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  button {
+    background-color: #C9512B;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius:6px;
+  }

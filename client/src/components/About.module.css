@@ -1,0 +1,140 @@
+
+.header {
+    background-color: #35495e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 70px;
+
+}
+.section {
+    padding: 4em 0;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.header h1 {
+    margin-bottom: 0.5em;
+    font-variant: all-small-caps;
+    font-size: 48px;
+    font-family: 'Russo One', sans-serif;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 2em;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.feature img {
+
+    margin-right: 1em;
+}
+.feature_text {
+    flex: 1;
+    text-align: left;
+}
+.feature h2 {
+    margin-bottom: 0.3em;
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-variant: all-small-caps;
+}
+.team_section {
+    background-color: #f9ca24;
+    color: #ffffff;
+}
+.team_member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.team_member img {
+    max-width: 180px;
+    border-radius: 10%;
+    margin-right: 1em;
+}
+.team_member_details {
+    margin-left: 50px;
+}
+.team_member h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+}
+.email_section {
+    background-image: url(/public/img/About/call.png);
+    background-color: #35495e;
+    color: #000000;
+    height: 400px;
+}
+.email_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.email_form input[type="email"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    width: 60%;
+    background-color: rgba(188, 188, 188, 0.2);
+    color: #000000;
+    margin-right: 1em;
+}
+.email_form button {
+    background-color: #f9ca24;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.contact_box{
+    position: relative;
+    top: 100px;
+}
+
+
+.contact_box p{
+    text-align: center;
+}
+
+/* TECHNOLOGIES SECTION */
+
+.fa{   
+    padding: 10px;
+    font-size: 30px;
+    display: block;
+    border-radius: 15px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: #3B5998;
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-variant: all-small-caps;
+}
+
+.row2{
+    margin-top: 30px;
+}

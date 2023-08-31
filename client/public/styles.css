@@ -1,0 +1,480 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+/* font-family: 'Old Standard TT', serif; */
+  color: black;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background-color: #ffffff;
+  padding: 10px;
+  padding-bottom: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.nav-text{
+  margin-right: 3rem;
+  
+}
+
+.nav-item{
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.nav-link{
+  color:rgb(0, 0, 0);
+}
+
+#button{
+  color: rgb(255, 255, 255);
+  padding: 0.4rem 1rem;
+  background-color: #C9512B;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #C9512C;
+  border-color: #C9512C;
+}
+
+
+
+/* HERO-SECTION */
+@media only screen and (min-width: 900px) {
+  /* For mobile phones: */
+  .hero {
+    padding: 120px 0;
+  }
+}
+
+.hero-box{
+  flex-wrap: nowrap;
+  position: relative;
+  /* bottom: 100px;
+  right: 50px; */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .hero-box {
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+}
+
+.hero {
+  /* background: url(./img/16339824_v915-techi-020.jpg); */
+  background-size: 100% 780px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+
+}
+
+
+.favicon{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 2px;
+}
+.favicon2{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  bottom: 2px;
+  left: 4px;
+}
+
+.hero-textbox{
+  text-align: left;
+  margin: auto;
+  /* margin-top: 30px; */
+}
+
+.secondary-text{
+  padding-left: 0px;
+}
+
+
+.hero-img {
+  height: 550px;
+  position: relative;
+  left: 100px;
+  bottom: 110px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-variant: all-small-caps;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Russo One', sans-serif;
+}
+
+#front-photo {
+  height: 25rem;
+  width: 35rem;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.hero-para{
+  font-size: 20px;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+.hero-bg {
+  position: relative;
+}
+
+.hero-textbox2{
+  margin-top: 90px;
+  margin-left: 2px;
+}
+
+.hero-textbox2 h5{
+  font-size: 25px;
+  font-variant: all-small-caps;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+/* INFORMATION */
+  .steps{
+    /* background: url(./img/rodion-kutsaiev-IJ25m7fXqtk-unsplash.jpg);
+    background-size: 100% 780px;
+    background-repeat: no-repeat;
+    width: 100%; */
+  }
+ 
+  .info-main-heading{
+    font-variant: all-small-caps;
+    font-family: 'Russo One', sans-serif;
+    font-size: 60px;
+    margin: 10px;
+  }
+
+  .info-box{
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+  }
+
+  .info-heading{
+    text-align: center;
+  }
+
+  .info-point-heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .points{
+    text-align: center;
+    padding-top: 80px;
+  }
+
+  /* IMG - SECTION */
+
+  .image-text{
+    background-image: url(./img/18702139_sep09.jpg);
+  }
+
+
+  .motivation{
+    margin:0px 20px;
+    margin-bottom: 40px;
+    padding: 20px ;
+    padding-bottom:120px;
+    padding-top:80px;
+    color: rgb(255, 255, 255);
+  }
+
+  .section-text{
+    margin: auto auto;
+  }
+
+  .section-img{
+    border-radius: 40px;
+  }
+
+  .motivation-box1{
+    padding-bottom: 50px;
+  }
+
+  /* TESTINOMIAL */
+  .reveiw{
+    background-image: url(./img/18702139_sep09.jpg);
+    padding: 40px;
+  }
+
+  .testimonial-heading h3{
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+  }
+  .testimonial-heading{
+    text-align: center;
+    font-variant: all-small-caps;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+  body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+    /* background: #262626; */
+}
+.testimonials
+{
+    margin: 100px auto 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap: 20px;
+    padding: 0px 100px;
+}
+.testimonials .card
+{
+    position: relative;
+    width:350px;
+    margin: 0 auto;
+    background:#333;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+.testimonials .card .layer
+{
+    position: absolute;
+    top:calc(100% - 2px);
+    left:0;
+    width:100%;
+    height: 100%;
+    background: linear-gradient(#03a9f4, #e91ee3);
+    z-index: 1;
+    transition: 0.5s;
+}
+.testimonials .card:hover .layer
+{
+   top: 0;
+}
+.testimonials .card .content
+{
+   position: relative;
+   z-index: 2;
+}
+.testimonials .card .content p
+{
+   font-size: 18px;
+   line-height: 24px;
+   color:#fff;
+}
+.testimonials .card .content .image
+{
+   width: 100px;
+   height: 100px;
+   margin: 0 auto;
+   border-radius: 50%;
+   overflow: hidden;
+   border: 4px solid #fff;
+   box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.testimonials .card .content .details h2
+{ 
+   font-size: 18px;
+   color: #fff;
+}
+.testimonials .card .content .details h2 span
+{
+    color: #03a9f4;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.testimonials .card:hover .content .details h2 span
+{
+    color: #fff;
+}
+
+
+
+
+/* FAQ */
+
+.faq h1{
+  font-variant: all-small-caps;
+  font-family: 'Russo One', sans-serif;
+}
+
+.faq{
+  margin: 100px auto;
+}
+
+
+p {
+  line-height: 1.8;
+}
+
+body {
+  min-width: 375px;
+  /* font-family: "Poppins", sans-serif; */
+  background-color: #f1f1f1;
+  color: #1a1a1a;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding : 1rem;
+}
+
+h1 {
+  text-align: center;
+  
+  font-size: 1.2em;
+  font-weight: 800;
+  
+  margin-top: 1em;
+  margin-bottom: 1.8em;
+}
+
+section.faq {
+  
+  position: relative;
+  right: 250px;
+
+  width: 100%;
+  max-width: 540px;
+  border-radius: 12px;
+  padding: 2em;
+  
+  background-color: white;
+  box-shadow: 2px 2px 15px 4px rgba(0, 0, 0, 0.2);
+}
+
+.faq-container {
+  display: grid;
+  gap: 1em;
+}
+
+.faq-header {
+  padding: 1.2em 1em;
+  
+  font-weight: 600;
+  
+  background-color: whitesmoke;
+  
+  user-select: none;
+  cursor: pointer;
+}
+
+.faq-content {
+  padding: 1em;
+}
+
+.faq-image{
+  display: block;
+  margin: auto auto;
+  position: relative;
+  top: 80px;
+}
+
+
+
+/* FOTTER */
+
+.footer-basic {
+  padding:40px 0;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
